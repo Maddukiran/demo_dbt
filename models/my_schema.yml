@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+  - name: psql_dbt
+    description: "A starter dbt model"
+    columns:
+      - name: customer_code
+        description: Customer Code
+      - name: code
+        description: Code
+      - name: name
+        description: Name
+      - name: sales_office
+        description: Sales Office
