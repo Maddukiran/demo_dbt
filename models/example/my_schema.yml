@@ -3,6 +3,10 @@ version: 2
 
 models:
   - name: psql_dbt
+    patches:
+      - name: psql_dbt
+        operation: patch
+        enabled: true
     description: "A starter dbt model"
     columns:
       - name: customer_code
