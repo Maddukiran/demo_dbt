@@ -12,7 +12,7 @@
 SELECT
   *
 FROM
-  {{ ref('gainwellchild') }}
+  _airbyte_raw_gainwellchild
 -- WHERE
   -- Add any additional filtering or transformation logic here
   -- column1 > 0
